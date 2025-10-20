@@ -10,6 +10,7 @@ return {
 			lua = { "stylua" },
 			c = { "clang-format" },
 			htmldjango = { "djlint" },
+			go = { "gofmt" },
 		},
 		-- Set default options
 		default_format_opts = {
