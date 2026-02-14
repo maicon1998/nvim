@@ -11,6 +11,7 @@ return {
 			c = { "clang-format" },
 			htmldjango = { "djlint" },
 			go = { "gofmt" },
+			markdown = { "prettier" },
 		},
 		-- Set default options
 		default_format_opts = {
