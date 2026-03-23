@@ -3,15 +3,16 @@ return {
 	opts = {
 		-- Define your formatters
 		formatters_by_ft = {
-			python = { "ruff_format" },
-			css = { "prettier" },
-			html = { "prettier" },
-			javascript = { "prettier" },
+			python = { "ruff" },
+			css = { "biome" },
+			html = { "biome" },
+			javascript = { "biome" },
 			lua = { "stylua" },
 			c = { "clang-format" },
 			htmldjango = { "djlint" },
-			go = { "gofmt" },
+			go = { "gofumpt" },
 			markdown = { "prettier" },
+			sh = { "shfmt" },
 		},
 		-- Set default options
 		default_format_opts = {
