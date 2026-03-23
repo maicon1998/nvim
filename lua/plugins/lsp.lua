@@ -5,7 +5,7 @@ return {
 		{
 			"mason-org/mason-lspconfig.nvim",
 			opts = {
-				ensure_installed = { "pyright", "quick_lint_js", "lua_ls", "clangd", "gopls" },
+				ensure_installed = { "ruff", "biome", "lua_ls", "clangd", "gopls", "bashls", "jinja_lsp" },
 			},
 		},
 		"hrsh7th/cmp-nvim-lsp",
