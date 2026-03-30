@@ -3,7 +3,7 @@ return {
 	opts = {
 		-- Define your formatters
 		formatters_by_ft = {
-			python = { "ruff" },
+			python = { "ruff_format" },
 			css = { "biome" },
 			html = { "biome" },
 			javascript = { "biome" },
