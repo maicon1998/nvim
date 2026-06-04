@@ -4,15 +4,16 @@ return {
 		-- Define your formatters
 		formatters_by_ft = {
 			python = { "ruff_format" },
-			css = { "biome" },
-			html = { "biome" },
-			javascript = { "biome" },
+			javascript = { "prettier" },
 			lua = { "stylua" },
-			c = { "clang-format" },
+			-- c = { "clang-format" },
+			-- go = { "gofumpt" },
+			html = { "prettier" },
 			htmldjango = { "djlint" },
-			go = { "gofumpt" },
-			markdown = { "prettier" },
+			css = { "prettier" },
+			json = { "prettier" },
 			sh = { "shfmt" },
+			markdown = { "prettier" },
 		},
 		-- Set default options
 		default_format_opts = {
