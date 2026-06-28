@@ -7,7 +7,7 @@ return {
 			javascript = { "prettier" },
 			lua = { "stylua" },
 			-- c = { "clang-format" },
-			-- go = { "gofumpt" },
+			go = { "gofumpt" },
 			html = { "prettier" },
 			htmldjango = { "djlint" },
 			css = { "prettier" },

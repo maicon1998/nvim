@@ -15,7 +15,8 @@ return {
 					"jsonls",
 					"bashls",
 					"marksman",
-				}, -- "gopls", "clangd"}
+					"gopls",
+				}, -- "clangd"}
 			},
 		},
 		"hrsh7th/cmp-nvim-lsp",
